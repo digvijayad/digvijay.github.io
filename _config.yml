@@ -22,9 +22,41 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  digvijayad
-set-blog: true
-header-bg: background-01.jpg
-header-bg-title: Background vector created by Starline - Freepik.com
+skills: Computer Science - Alabama State University
+
+# Header Settings
+set_blog: true                        # Display blog? 
+header_bg: background-01.jpg          # Header background Image
+header_bg_title: Background vector created by Starline - Freepik.com
+
+# Footer settings
+footer:                               #Footer Headers
+  copyright: Email- MyFirstName_LastName@outlook.com
+  location: Location
+  social: Around the Web
+  credits: ABOUT Digvijay
+  
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# For more icons look at http://fontawesome.io/icons/#brand
+social:
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/4714773/digvijayad
+  - title: google-plus
+    url: #
+  - title: bitbucket
+    url: https://bitbucket.com/digvijayad
+  - title: linkedin
+    url: https://www.linkedin.com/in/digvijay-naruka/
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 915 S Jackson Street 
+  - line: Montgomery, AL 36104
+
+# Credits content
+credits: 'Digvijay is a soon to be a graduate from Alabama State University, excited to participate in the real world.'
 
 # Build settings
 markdown: kramdown
